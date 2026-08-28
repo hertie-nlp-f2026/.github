@@ -5,4 +5,4 @@
 # to fire Sync membership / Sync site. Identity + schedule live elsewhere (the
 # course org's dsl-course.yml and this cohort's classroom-config/schedule.yml).
 course: hertie-nlp-e1282
-org: hertie-nlp-e1282-f2026
+org: hertie-nlp-f2026
