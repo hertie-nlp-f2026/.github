@@ -2,7 +2,7 @@
      It is seeded ONCE and every edit you make survives the nightly refresh. The one
      exception is the repo table below, between the dsl:repo-table markers. -->
 
-# hertie-nlp-e1282-f2026
+# hertie-nlp-f2026
 
 Welcome! This is the course organisation for **hertie-nlp-e1282-f2026**.
 
