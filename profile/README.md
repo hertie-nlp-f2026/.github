@@ -30,8 +30,7 @@ org; updates on every release.
 | --- | --- | --- |
 | [welcome](https://github.com/hertie-nlp-f2026/welcome) | public | Course front door - open a Join issue to enrol |
 | [classroom-config](https://github.com/hertie-nlp-f2026/classroom-config) | private | PRIVATE cohort config - roster (students.csv). No PII leaves here. |
-| [hertie-nlp-e1282-f2026.github.io](https://github.com/hertie-nlp-f2026/hertie-nlp-e1282-f2026.github.io) | public | Course website (auto-deployed on push) |
-| [hertie-nlp-f2026.github.io](https://github.com/hertie-nlp-f2026/hertie-nlp-f2026.github.io) | public | Course website (auto-deployed on push) |
+| [hertie-nlp-f2026.github.io](https://github.com/hertie-nlp-f2026/hertie-nlp-f2026.github.io) | public | [do not touch]: Course website (auto-deployed) |
 <!-- dsl:repo-table:end -->
 
 ---
