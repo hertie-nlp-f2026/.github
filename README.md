@@ -1,7 +1,7 @@
 <!-- SYSTEM-OWNED - do not edit, edits here are overwritten on the next refresh. -->
 
-# Natural Language Processing - cohort control repo
+# hertie-nlp-f2026 - cohort control repo
 
-This is the **`.github` repo** for the `hertie-nlp-e1282-f2026` cohort org. **Students and instructors rarely need to touch anything in this repo directly.**
+This is the **`.github` repo** for the `hertie-nlp-f2026` cohort org. **Students and instructors rarely need to touch anything in this repo directly.**
 
 Built and kept in sync by the [DSL teaching toolkit](https://github.com/hertie-data-science-lab/dsl-teaching-toolkit).
