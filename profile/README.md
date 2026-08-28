@@ -2,20 +2,20 @@
      It is seeded ONCE and every edit you make survives the nightly refresh. The one
      exception is the repo table below, between the dsl:repo-table markers. -->
 
-# hertie-nlp-e1282-f2026.
+# hertie-nlp-f2026.
 
-Welcome! This is the course organisation for **hertie-nlp-e1282-f2026**.
+Welcome! This is the course organisation for **hertie-nlp-f2026**.
 
 ## Course website
 
-**[hertie-nlp-e1282-f2026 - course website](https://hertie-nlp-e1282-f2026.github.io/)** - schedule,
+**[hertie-nlp-f2026 - course website](https://hertie-nlp-f2026.github.io/)** - schedule,
 lectures, assignments, and the teaching team. Auto-generated and kept in sync with this
 org; updates on every release.
 
 ## Getting started
 
 1. Open a **Join** issue in
-   [`welcome`](https://github.com/hertie-nlp-e1282-f2026/welcome/issues/new/choose) to enrol - your
+   [`welcome`](https://github.com/hertie-nlp-f2026/welcome/issues/new/choose) to enrol - your
    GitHub handle is captured automatically.
 2. Once you're enrolled, course **materials** open up here session by session, and your
    own assignment repositories appear in this org.
