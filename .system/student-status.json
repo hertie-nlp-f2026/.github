@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-01",
   "semester_end": "2027-01-31",
-  "generated_at": "2026-10-13T18:02:35+00:00",
+  "generated_at": "2026-10-13T18:07:26+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-02-13",
   "home_markdown": "Welcome to **Natural Language Processing** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-nlp-f2026) or contact the instructor directly.",
@@ -98,6 +98,582 @@
       ]
     },
     {
+      "id": "lecture-01",
+      "kind": "lecture",
+      "when": "2026-08-31T22:35:00+02:00",
+      "sort_at": "2026-08-31T22:35:00+02:00",
+      "all_day": false,
+      "title": "Lecture 1",
+      "subtitle": "Introduction, motivation and course overview",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "NLP_Session_1_Final.pdf",
+          "repo": "materials",
+          "path": "lectures/01_session-1/NLP_Session_1_Final.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/lectures/01_session-1/NLP_Session_1_Final.pdf"
+        },
+        {
+          "name": "s1-hobson-dyshel-2024-opt.pdf",
+          "repo": "materials",
+          "path": "readings/01_session-1/s1-hobson-dyshel-2024-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/01_session-1/s1-hobson-dyshel-2024-opt.pdf"
+        },
+        {
+          "name": "s1-vajjala-2020.pdf",
+          "repo": "materials",
+          "path": "readings/01_session-1/s1-vajjala-2020.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/01_session-1/s1-vajjala-2020.pdf"
+        }
+      ],
+      "readings": [
+        {
+          "name": "s1-hobson-dyshel-2024-opt.pdf",
+          "repo": "materials",
+          "path": "readings/01_session-1/s1-hobson-dyshel-2024-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/01_session-1/s1-hobson-dyshel-2024-opt.pdf"
+        },
+        {
+          "name": "s1-vajjala-2020.pdf",
+          "repo": "materials",
+          "path": "readings/01_session-1/s1-vajjala-2020.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/01_session-1/s1-vajjala-2020.pdf"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "lab-01",
+      "kind": "lab",
+      "when": "2026-09-01T21:26:00+02:00",
+      "sort_at": "2026-09-01T21:26:00+02:00",
+      "all_day": false,
+      "title": "Lab 1",
+      "subtitle": "Introduction, motivation and course overview",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "NLP_Lab1_Slides.pdf",
+          "repo": "materials",
+          "path": "labs/01_session-1/NLP_Lab1_Slides.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/01_session-1/NLP_Lab1_Slides.pdf"
+        },
+        {
+          "name": "NLP_Lab_1.html",
+          "repo": "materials",
+          "path": "labs/01_session-1/NLP_Lab_1.html",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/01_session-1/NLP_Lab_1.html"
+        },
+        {
+          "name": "NLP_Lab_1_activity.ipynb",
+          "repo": "materials",
+          "path": "labs/01_session-1/NLP_Lab_1_activity.ipynb",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/01_session-1/NLP_Lab_1_activity.ipynb"
+        },
+        {
+          "name": "nlp_lab1_data_in.csv",
+          "repo": "materials",
+          "path": "labs/01_session-1/nlp_lab1_data_in.csv",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/01_session-1/nlp_lab1_data_in.csv"
+        },
+        {
+          "name": "requirements.txt",
+          "repo": "materials",
+          "path": "labs/01_session-1/requirements.txt",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/01_session-1/requirements.txt"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lecture-02",
+      "kind": "lecture",
+      "when": "2026-09-07T22:13:00+02:00",
+      "sort_at": "2026-09-07T22:13:00+02:00",
+      "all_day": false,
+      "title": "Lecture 2",
+      "subtitle": "String processing, regular expressions, and text preprocessing",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "NLP_Session_2_String_Regex_Preprocessing_FINAL.pdf",
+          "repo": "materials",
+          "path": "lectures/02_session-2/NLP_Session_2_String_Regex_Preprocessing_FINAL.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/lectures/02_session-2/NLP_Session_2_String_Regex_Preprocessing_FINAL.pdf"
+        },
+        {
+          "name": "s2-hobson-dyshel-2024-2.pdf",
+          "repo": "materials",
+          "path": "readings/02_session-2/s2-hobson-dyshel-2024-2.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/02_session-2/s2-hobson-dyshel-2024-2.pdf"
+        },
+        {
+          "name": "s2-hobson-dyshel-2024-opt.pdf",
+          "repo": "materials",
+          "path": "readings/02_session-2/s2-hobson-dyshel-2024-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/02_session-2/s2-hobson-dyshel-2024-opt.pdf"
+        },
+        {
+          "name": "s2-jurafsky-martin-2024.pdf",
+          "repo": "materials",
+          "path": "readings/02_session-2/s2-jurafsky-martin-2024.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/02_session-2/s2-jurafsky-martin-2024.pdf"
+        }
+      ],
+      "readings": [
+        {
+          "name": "s2-hobson-dyshel-2024-2.pdf",
+          "repo": "materials",
+          "path": "readings/02_session-2/s2-hobson-dyshel-2024-2.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/02_session-2/s2-hobson-dyshel-2024-2.pdf"
+        },
+        {
+          "name": "s2-hobson-dyshel-2024-opt.pdf",
+          "repo": "materials",
+          "path": "readings/02_session-2/s2-hobson-dyshel-2024-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/02_session-2/s2-hobson-dyshel-2024-opt.pdf"
+        },
+        {
+          "name": "s2-jurafsky-martin-2024.pdf",
+          "repo": "materials",
+          "path": "readings/02_session-2/s2-jurafsky-martin-2024.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/02_session-2/s2-jurafsky-martin-2024.pdf"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "lab-02",
+      "kind": "lab",
+      "when": "2026-09-08T14:16:00+02:00",
+      "sort_at": "2026-09-08T14:16:00+02:00",
+      "all_day": false,
+      "title": "Lab 2",
+      "subtitle": "String processing, regular expressions, and text preprocessing",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "NLP_Lab2_Slides.pdf",
+          "repo": "materials",
+          "path": "labs/02_session-2/NLP_Lab2_Slides.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/02_session-2/NLP_Lab2_Slides.pdf"
+        },
+        {
+          "name": "NLP_Lab_2_activity.html",
+          "repo": "materials",
+          "path": "labs/02_session-2/NLP_Lab_2_activity.html",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/02_session-2/NLP_Lab_2_activity.html"
+        },
+        {
+          "name": "NLP_Lab_2_activity.ipynb",
+          "repo": "materials",
+          "path": "labs/02_session-2/NLP_Lab_2_activity.ipynb",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/02_session-2/NLP_Lab_2_activity.ipynb"
+        },
+        {
+          "name": "nlp_lab2_data_cleaning.csv",
+          "repo": "materials",
+          "path": "labs/02_session-2/nlp_lab2_data_cleaning.csv",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/02_session-2/nlp_lab2_data_cleaning.csv"
+        },
+        {
+          "name": "requirements.txt",
+          "repo": "materials",
+          "path": "labs/02_session-2/requirements.txt",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/02_session-2/requirements.txt"
+        },
+        {
+          "name": "reviews_sentiment.csv",
+          "repo": "materials",
+          "path": "labs/02_session-2/reviews_sentiment.csv",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/02_session-2/reviews_sentiment.csv"
+        },
+        {
+          "name": "images/ (1 file)",
+          "repo": "materials",
+          "path": "labs/02_session-2/images",
+          "url": "https://github.com/hertie-nlp-f2026/materials/tree/main/labs/02_session-2/images"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lecture-03",
+      "kind": "lecture",
+      "when": "2026-09-14T22:30:00+02:00",
+      "sort_at": "2026-09-14T22:30:00+02:00",
+      "all_day": false,
+      "title": "Lecture 3",
+      "subtitle": "Text representation I - Vector-based",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "NLP_Session_3_Text_Representation_Vector_Based_FINAL.pdf",
+          "repo": "materials",
+          "path": "lectures/03_session-3/NLP_Session_3_Text_Representation_Vector_Based_FINAL.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/lectures/03_session-3/NLP_Session_3_Text_Representation_Vector_Based_FINAL.pdf"
+        },
+        {
+          "name": "s3-hobson-dyshel-2024-opt.pdf",
+          "repo": "materials",
+          "path": "readings/03_session-3/s3-hobson-dyshel-2024-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/03_session-3/s3-hobson-dyshel-2024-opt.pdf"
+        },
+        {
+          "name": "s3-vajjala-2024.pdf",
+          "repo": "materials",
+          "path": "readings/03_session-3/s3-vajjala-2024.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/03_session-3/s3-vajjala-2024.pdf"
+        }
+      ],
+      "readings": [
+        {
+          "name": "s3-hobson-dyshel-2024-opt.pdf",
+          "repo": "materials",
+          "path": "readings/03_session-3/s3-hobson-dyshel-2024-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/03_session-3/s3-hobson-dyshel-2024-opt.pdf"
+        },
+        {
+          "name": "s3-vajjala-2024.pdf",
+          "repo": "materials",
+          "path": "readings/03_session-3/s3-vajjala-2024.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/03_session-3/s3-vajjala-2024.pdf"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "lab-03",
+      "kind": "lab",
+      "when": "2026-09-15T08:11:00+02:00",
+      "sort_at": "2026-09-15T08:11:00+02:00",
+      "all_day": false,
+      "title": "Lab 3",
+      "subtitle": "Text representation I - Vector-based",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "NLP_Lab3_Slides.pdf",
+          "repo": "materials",
+          "path": "labs/03_session-3/NLP_Lab3_Slides.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/03_session-3/NLP_Lab3_Slides.pdf"
+        },
+        {
+          "name": "NLP_Lab_3.html",
+          "repo": "materials",
+          "path": "labs/03_session-3/NLP_Lab_3.html",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/03_session-3/NLP_Lab_3.html"
+        },
+        {
+          "name": "NLP_Lab_3_activity.ipynb",
+          "repo": "materials",
+          "path": "labs/03_session-3/NLP_Lab_3_activity.ipynb",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/03_session-3/NLP_Lab_3_activity.ipynb"
+        },
+        {
+          "name": "requirements.txt",
+          "repo": "materials",
+          "path": "labs/03_session-3/requirements.txt",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/03_session-3/requirements.txt"
+        },
+        {
+          "name": "pdf_corpus/ (10 files)",
+          "repo": "materials",
+          "path": "labs/03_session-3/pdf_corpus",
+          "url": "https://github.com/hertie-nlp-f2026/materials/tree/main/labs/03_session-3/pdf_corpus"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lab-04",
+      "kind": "lab",
+      "when": "2026-09-23T05:44:00+02:00",
+      "sort_at": "2026-09-23T05:44:00+02:00",
+      "all_day": false,
+      "title": "Lab 4",
+      "subtitle": "Text representation II - Distribution-based",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "NLP_Lab4_Slides.pdf",
+          "repo": "materials",
+          "path": "labs/04_session-4/NLP_Lab4_Slides.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/04_session-4/NLP_Lab4_Slides.pdf"
+        },
+        {
+          "name": "NLP_Lab_4.html",
+          "repo": "materials",
+          "path": "labs/04_session-4/NLP_Lab_4.html",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/04_session-4/NLP_Lab_4.html"
+        },
+        {
+          "name": "NLP_Lab_4_CBoW.html",
+          "repo": "materials",
+          "path": "labs/04_session-4/NLP_Lab_4_CBoW.html",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/04_session-4/NLP_Lab_4_CBoW.html"
+        },
+        {
+          "name": "NLP_Lab_4_CBoW.ipynb",
+          "repo": "materials",
+          "path": "labs/04_session-4/NLP_Lab_4_CBoW.ipynb",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/04_session-4/NLP_Lab_4_CBoW.ipynb"
+        },
+        {
+          "name": "NLP_Lab_4_activity.ipynb",
+          "repo": "materials",
+          "path": "labs/04_session-4/NLP_Lab_4_activity.ipynb",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/04_session-4/NLP_Lab_4_activity.ipynb"
+        },
+        {
+          "name": "requirements.txt",
+          "repo": "materials",
+          "path": "labs/04_session-4/requirements.txt",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/04_session-4/requirements.txt"
+        },
+        {
+          "name": "reviews_sentiment.csv",
+          "repo": "materials",
+          "path": "labs/04_session-4/reviews_sentiment.csv",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/04_session-4/reviews_sentiment.csv"
+        },
+        {
+          "name": "pdf_corpus/ (10 files)",
+          "repo": "materials",
+          "path": "labs/04_session-4/pdf_corpus",
+          "url": "https://github.com/hertie-nlp-f2026/materials/tree/main/labs/04_session-4/pdf_corpus"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lecture-04",
+      "kind": "lecture",
+      "when": "2026-09-23T11:25:00+02:00",
+      "sort_at": "2026-09-23T11:25:00+02:00",
+      "all_day": false,
+      "title": "Lecture 4",
+      "subtitle": "Text representation II - Distribution-based",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "NLP_Session_4_Text_Representation_Distribution_Based_v2-2.pdf",
+          "repo": "materials",
+          "path": "lectures/04_session-4/NLP_Session_4_Text_Representation_Distribution_Based_v2-2.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/lectures/04_session-4/NLP_Session_4_Text_Representation_Distribution_Based_v2-2.pdf"
+        },
+        {
+          "name": "s4-hobson-dyshel-2024-opt.pdf",
+          "repo": "materials",
+          "path": "readings/04_session-4/s4-hobson-dyshel-2024-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/04_session-4/s4-hobson-dyshel-2024-opt.pdf"
+        },
+        {
+          "name": "s4-vajjala-2024.pdf",
+          "repo": "materials",
+          "path": "readings/04_session-4/s4-vajjala-2024.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/04_session-4/s4-vajjala-2024.pdf"
+        }
+      ],
+      "readings": [
+        {
+          "name": "s4-hobson-dyshel-2024-opt.pdf",
+          "repo": "materials",
+          "path": "readings/04_session-4/s4-hobson-dyshel-2024-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/04_session-4/s4-hobson-dyshel-2024-opt.pdf"
+        },
+        {
+          "name": "s4-vajjala-2024.pdf",
+          "repo": "materials",
+          "path": "readings/04_session-4/s4-vajjala-2024.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/04_session-4/s4-vajjala-2024.pdf"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "lecture-05",
+      "kind": "lecture",
+      "when": "2026-09-28T23:47:00+02:00",
+      "sort_at": "2026-09-28T23:47:00+02:00",
+      "all_day": false,
+      "title": "Lecture 5",
+      "subtitle": "Basic models I - Text classification with logistic regression",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "NLP_Session_5_Basic_Models.pdf",
+          "repo": "materials",
+          "path": "lectures/05_session-5/NLP_Session_5_Basic_Models.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/lectures/05_session-5/NLP_Session_5_Basic_Models.pdf"
+        },
+        {
+          "name": "s5-raschka-2022-opt.pdf",
+          "repo": "materials",
+          "path": "readings/05_session-5/s5-raschka-2022-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/05_session-5/s5-raschka-2022-opt.pdf"
+        },
+        {
+          "name": "s5-vajjala-2024.pdf",
+          "repo": "materials",
+          "path": "readings/05_session-5/s5-vajjala-2024.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/05_session-5/s5-vajjala-2024.pdf"
+        }
+      ],
+      "readings": [
+        {
+          "name": "s5-raschka-2022-opt.pdf",
+          "repo": "materials",
+          "path": "readings/05_session-5/s5-raschka-2022-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/05_session-5/s5-raschka-2022-opt.pdf"
+        },
+        {
+          "name": "s5-vajjala-2024.pdf",
+          "repo": "materials",
+          "path": "readings/05_session-5/s5-vajjala-2024.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/05_session-5/s5-vajjala-2024.pdf"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "lab-05",
+      "kind": "lab",
+      "when": "2026-09-29T16:33:00+02:00",
+      "sort_at": "2026-09-29T16:33:00+02:00",
+      "all_day": false,
+      "title": "Lab 5",
+      "subtitle": "Basic models I - Text classification with logistic regression",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "NLP_Lab5_Slides.pdf",
+          "repo": "materials",
+          "path": "labs/05_session-5/NLP_Lab5_Slides.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/05_session-5/NLP_Lab5_Slides.pdf"
+        },
+        {
+          "name": "NLP_Lab_5_activity.html",
+          "repo": "materials",
+          "path": "labs/05_session-5/NLP_Lab_5_activity.html",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/05_session-5/NLP_Lab_5_activity.html"
+        },
+        {
+          "name": "NLP_Lab_5_activity.ipynb",
+          "repo": "materials",
+          "path": "labs/05_session-5/NLP_Lab_5_activity.ipynb",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/05_session-5/NLP_Lab_5_activity.ipynb"
+        },
+        {
+          "name": "requirements.txt",
+          "repo": "materials",
+          "path": "labs/05_session-5/requirements.txt",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/05_session-5/requirements.txt"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
       "id": "quiz-1:handout",
       "kind": "assignment",
       "when": "2026-10-04T20:00:00+02:00",
@@ -139,6 +715,526 @@
       "readings_pending": false,
       "tabs": [
         "due"
+      ]
+    },
+    {
+      "id": "lab-06",
+      "kind": "lab",
+      "when": "2026-10-05T08:42:00+02:00",
+      "sort_at": "2026-10-05T08:42:00+02:00",
+      "all_day": false,
+      "title": "Lab 6",
+      "subtitle": "Neural models I - Text classification with neural networks",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "NLP_Lab6_Slides.pdf",
+          "repo": "materials",
+          "path": "labs/06_session-6/NLP_Lab6_Slides.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/06_session-6/NLP_Lab6_Slides.pdf"
+        },
+        {
+          "name": "NLP_Lab_6_activity.html",
+          "repo": "materials",
+          "path": "labs/06_session-6/NLP_Lab_6_activity.html",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/06_session-6/NLP_Lab_6_activity.html"
+        },
+        {
+          "name": "NLP_Lab_6_activity.ipynb",
+          "repo": "materials",
+          "path": "labs/06_session-6/NLP_Lab_6_activity.ipynb",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/06_session-6/NLP_Lab_6_activity.ipynb"
+        },
+        {
+          "name": "requirements.txt",
+          "repo": "materials",
+          "path": "labs/06_session-6/requirements.txt",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/06_session-6/requirements.txt"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lab-07",
+      "kind": "lab",
+      "when": null,
+      "sort_at": "2026-10-05T08:43:00+02:00",
+      "all_day": false,
+      "title": "Lab 7",
+      "subtitle": "Neural models II - Topic modelling with LDA + BERTopic",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": true,
+      "dateless": true,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "requirements.txt",
+          "repo": "materials",
+          "path": "labs/07_session-7/requirements.txt",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/07_session-7/requirements.txt"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lab-08",
+      "kind": "lab",
+      "when": null,
+      "sort_at": "2026-10-05T08:44:00+02:00",
+      "all_day": false,
+      "title": "Lab 8",
+      "subtitle": "Neural models III - Language modelling with Transformers I",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": true,
+      "dateless": true,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lab-09",
+      "kind": "lab",
+      "when": null,
+      "sort_at": "2026-10-05T08:45:00+02:00",
+      "all_day": false,
+      "title": "Lab 9",
+      "subtitle": "Neural models III - Language modelling with Transformers II",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": true,
+      "dateless": true,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lab-10",
+      "kind": "lab",
+      "when": null,
+      "sort_at": "2026-10-05T08:46:00+02:00",
+      "all_day": false,
+      "title": "Lab 10",
+      "subtitle": "NLP visualizations + Explainable AI",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": true,
+      "dateless": true,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lab-11",
+      "kind": "lab",
+      "when": null,
+      "sort_at": "2026-10-05T08:47:00+02:00",
+      "all_day": false,
+      "title": "Lab 11",
+      "subtitle": "Extending NLP to LLM workflows and agents",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": true,
+      "dateless": true,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lab-12",
+      "kind": "lab",
+      "when": null,
+      "sort_at": "2026-10-05T08:48:00+02:00",
+      "all_day": false,
+      "title": "Lab 12",
+      "subtitle": "LLM Workflows and Agents II",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": true,
+      "dateless": true,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lecture-06",
+      "kind": "lecture",
+      "when": "2026-10-11T18:53:00+02:00",
+      "sort_at": "2026-10-11T18:53:00+02:00",
+      "all_day": false,
+      "title": "Lecture 6",
+      "subtitle": "Neural models I - Text classification with neural networks",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "NLP_Session_6.pdf",
+          "repo": "materials",
+          "path": "lectures/06_session-6/NLP_Session_6.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/lectures/06_session-6/NLP_Session_6.pdf"
+        },
+        {
+          "name": "s6-bertopic-opt.pdf",
+          "repo": "materials",
+          "path": "readings/06_session-6/s6-bertopic-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/06_session-6/s6-bertopic-opt.pdf"
+        },
+        {
+          "name": "s6-hobson-dyshel-2024.pdf",
+          "repo": "materials",
+          "path": "readings/06_session-6/s6-hobson-dyshel-2024.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/06_session-6/s6-hobson-dyshel-2024.pdf"
+        },
+        {
+          "name": "s6-raschka-2024-opt.pdf",
+          "repo": "materials",
+          "path": "readings/06_session-6/s6-raschka-2024-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/06_session-6/s6-raschka-2024-opt.pdf"
+        }
+      ],
+      "readings": [
+        {
+          "name": "s6-bertopic-opt.pdf",
+          "repo": "materials",
+          "path": "readings/06_session-6/s6-bertopic-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/06_session-6/s6-bertopic-opt.pdf"
+        },
+        {
+          "name": "s6-hobson-dyshel-2024.pdf",
+          "repo": "materials",
+          "path": "readings/06_session-6/s6-hobson-dyshel-2024.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/06_session-6/s6-hobson-dyshel-2024.pdf"
+        },
+        {
+          "name": "s6-raschka-2024-opt.pdf",
+          "repo": "materials",
+          "path": "readings/06_session-6/s6-raschka-2024-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/06_session-6/s6-raschka-2024-opt.pdf"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "lecture-07",
+      "kind": "lecture",
+      "when": "2026-10-12T22:47:00+02:00",
+      "sort_at": "2026-10-12T22:47:00+02:00",
+      "all_day": false,
+      "title": "Lecture 7",
+      "subtitle": "Neural models II - Topic modelling with LDA + BERTopic",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "NLP_Session_7_TopicModels_NeuralNetworks_Final.pdf",
+          "repo": "materials",
+          "path": "lectures/07_session-7/NLP_Session_7_TopicModels_NeuralNetworks_Final.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/lectures/07_session-7/NLP_Session_7_TopicModels_NeuralNetworks_Final.pdf"
+        },
+        {
+          "name": "s7-raschka-2022-1.pdf",
+          "repo": "materials",
+          "path": "readings/07_session-7/s7-raschka-2022-1.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/07_session-7/s7-raschka-2022-1.pdf"
+        },
+        {
+          "name": "s7-raschka-2022-2.pdf",
+          "repo": "materials",
+          "path": "readings/07_session-7/s7-raschka-2022-2.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/07_session-7/s7-raschka-2022-2.pdf"
+        },
+        {
+          "name": "s7-raschka-2022-3.pdf",
+          "repo": "materials",
+          "path": "readings/07_session-7/s7-raschka-2022-3.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/07_session-7/s7-raschka-2022-3.pdf"
+        },
+        {
+          "name": "s7-raschka-2022-opt-1.pdf",
+          "repo": "materials",
+          "path": "readings/07_session-7/s7-raschka-2022-opt-1.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/07_session-7/s7-raschka-2022-opt-1.pdf"
+        },
+        {
+          "name": "s7-raschka-2022-opt-2.pdf",
+          "repo": "materials",
+          "path": "readings/07_session-7/s7-raschka-2022-opt-2.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/07_session-7/s7-raschka-2022-opt-2.pdf"
+        }
+      ],
+      "readings": [
+        {
+          "name": "s7-raschka-2022-1.pdf",
+          "repo": "materials",
+          "path": "readings/07_session-7/s7-raschka-2022-1.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/07_session-7/s7-raschka-2022-1.pdf"
+        },
+        {
+          "name": "s7-raschka-2022-2.pdf",
+          "repo": "materials",
+          "path": "readings/07_session-7/s7-raschka-2022-2.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/07_session-7/s7-raschka-2022-2.pdf"
+        },
+        {
+          "name": "s7-raschka-2022-3.pdf",
+          "repo": "materials",
+          "path": "readings/07_session-7/s7-raschka-2022-3.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/07_session-7/s7-raschka-2022-3.pdf"
+        },
+        {
+          "name": "s7-raschka-2022-opt-1.pdf",
+          "repo": "materials",
+          "path": "readings/07_session-7/s7-raschka-2022-opt-1.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/07_session-7/s7-raschka-2022-opt-1.pdf"
+        },
+        {
+          "name": "s7-raschka-2022-opt-2.pdf",
+          "repo": "materials",
+          "path": "readings/07_session-7/s7-raschka-2022-opt-2.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/07_session-7/s7-raschka-2022-opt-2.pdf"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "lecture-08",
+      "kind": "lecture",
+      "when": null,
+      "sort_at": "2026-10-12T22:48:00+02:00",
+      "all_day": false,
+      "title": "Lecture 8",
+      "subtitle": "Neural models III - Language modelling with Transformers I",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": true,
+      "dateless": true,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "s8-raschka-2024.pdf",
+          "repo": "materials",
+          "path": "readings/08_session-8/s8-raschka-2024.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/08_session-8/s8-raschka-2024.pdf"
+        },
+        {
+          "name": "s8-tunstall-2024-opt.pdf",
+          "repo": "materials",
+          "path": "readings/08_session-8/s8-tunstall-2024-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/08_session-8/s8-tunstall-2024-opt.pdf"
+        },
+        {
+          "name": "s8-tunstall-2024.pdf",
+          "repo": "materials",
+          "path": "readings/08_session-8/s8-tunstall-2024.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/08_session-8/s8-tunstall-2024.pdf"
+        }
+      ],
+      "readings": [
+        {
+          "name": "s8-raschka-2024.pdf",
+          "repo": "materials",
+          "path": "readings/08_session-8/s8-raschka-2024.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/08_session-8/s8-raschka-2024.pdf"
+        },
+        {
+          "name": "s8-tunstall-2024-opt.pdf",
+          "repo": "materials",
+          "path": "readings/08_session-8/s8-tunstall-2024-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/08_session-8/s8-tunstall-2024-opt.pdf"
+        },
+        {
+          "name": "s8-tunstall-2024.pdf",
+          "repo": "materials",
+          "path": "readings/08_session-8/s8-tunstall-2024.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/08_session-8/s8-tunstall-2024.pdf"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "lecture-09",
+      "kind": "lecture",
+      "when": null,
+      "sort_at": "2026-10-12T22:49:00+02:00",
+      "all_day": false,
+      "title": "Lecture 9",
+      "subtitle": "Neural models III - Language modelling with Transformers II",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": true,
+      "dateless": true,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "s09-tunstall-2022-opt.pdf",
+          "repo": "materials",
+          "path": "readings/09_session-9/s09-tunstall-2022-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/09_session-9/s09-tunstall-2022-opt.pdf"
+        },
+        {
+          "name": "s09-tunstall-2022.pdf",
+          "repo": "materials",
+          "path": "readings/09_session-9/s09-tunstall-2022.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/09_session-9/s09-tunstall-2022.pdf"
+        }
+      ],
+      "readings": [
+        {
+          "name": "s09-tunstall-2022-opt.pdf",
+          "repo": "materials",
+          "path": "readings/09_session-9/s09-tunstall-2022-opt.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/09_session-9/s09-tunstall-2022-opt.pdf"
+        },
+        {
+          "name": "s09-tunstall-2022.pdf",
+          "repo": "materials",
+          "path": "readings/09_session-9/s09-tunstall-2022.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/readings/09_session-9/s09-tunstall-2022.pdf"
+        }
+      ],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "lecture-10",
+      "kind": "lecture",
+      "when": null,
+      "sort_at": "2026-10-12T22:50:00+02:00",
+      "all_day": false,
+      "title": "Lecture 10",
+      "subtitle": "NLP visualizations + Explainable AI",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": true,
+      "dateless": true,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lecture"
+      ]
+    },
+    {
+      "id": "lecture-11",
+      "kind": "lecture",
+      "when": null,
+      "sort_at": "2026-10-12T22:51:00+02:00",
+      "all_day": false,
+      "title": "Lecture 11",
+      "subtitle": "Extending NLP to LLM workflows and agents",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": true,
+      "dateless": true,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lecture"
+      ]
+    },
+    {
+      "id": "lecture-12",
+      "kind": "lecture",
+      "when": null,
+      "sort_at": "2026-10-12T22:52:00+02:00",
+      "all_day": false,
+      "title": "Lecture 12",
+      "subtitle": "LLM Workflows and Agents II",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": true,
+      "dateless": true,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lecture"
       ]
     },
     {
@@ -230,6 +1326,8 @@
     }
   ],
   "late_policy": [],
-  "materials_repos": [],
+  "materials_repos": [
+    "materials"
+  ],
   "announcements": []
 }
