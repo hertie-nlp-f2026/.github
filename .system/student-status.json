@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-31",
   "semester_end": "2026-11-27",
-  "generated_at": "2026-10-13T20:44:29+00:00",
+  "generated_at": "2026-10-13T20:48:33+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-02-13",
   "home_markdown": "Welcome to **Natural Language Processing** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-nlp-f2026) or contact the instructor directly.",
@@ -155,12 +155,12 @@
     {
       "id": "lab-01",
       "kind": "lab",
-      "when": "2026-09-02T00:00:00+02:00",
-      "sort_at": "2026-09-02T00:00:00+02:00",
+      "when": "2026-09-02T08:00:00+02:00",
+      "sort_at": "2026-09-02T08:00:00+02:00",
       "all_day": false,
       "title": "Lab 1",
       "subtitle": "Introduction, motivation and course overview",
-      "details": "Two lab groups: Wednesday 08:00-10:00 (room 2.30) and Thursday 18:00-20:00 (room 2.32)",
+      "details": "Lab group 1 - Wednesday 08:00-10:00, room 2.30",
       "assignment": null,
       "released": true,
       "tbc": false,
@@ -203,6 +203,28 @@
       "readings_pending": false,
       "tabs": [
         "lab"
+      ]
+    },
+    {
+      "id": "lab-01-group-2",
+      "kind": "special_event",
+      "when": "2026-09-03T18:00:00+02:00",
+      "sort_at": "2026-09-03T18:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 1 - group 2",
+      "subtitle": "",
+      "details": "Lab group 2 - Thursday 18:00-20:00, room 2.32",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "special_event"
       ]
     },
     {
@@ -275,12 +297,12 @@
     {
       "id": "lab-02",
       "kind": "lab",
-      "when": "2026-09-09T00:00:00+02:00",
-      "sort_at": "2026-09-09T00:00:00+02:00",
+      "when": "2026-09-09T08:00:00+02:00",
+      "sort_at": "2026-09-09T08:00:00+02:00",
       "all_day": false,
       "title": "Lab 2",
       "subtitle": "String processing, regular expressions, and text preprocessing",
-      "details": "Two lab groups: Wednesday 08:00-10:00 (room 2.30) and Thursday 18:00-20:00 (room 2.32)",
+      "details": "Lab group 1 - Wednesday 08:00-10:00, room 2.30",
       "assignment": null,
       "released": true,
       "tbc": false,
@@ -335,6 +357,28 @@
       "readings_pending": false,
       "tabs": [
         "lab"
+      ]
+    },
+    {
+      "id": "lab-02-group-2",
+      "kind": "special_event",
+      "when": "2026-09-10T18:00:00+02:00",
+      "sort_at": "2026-09-10T18:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 2 - group 2",
+      "subtitle": "",
+      "details": "Lab group 2 - Thursday 18:00-20:00, room 2.32",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "special_event"
       ]
     },
     {
@@ -395,12 +439,12 @@
     {
       "id": "lab-03",
       "kind": "lab",
-      "when": "2026-09-16T00:00:00+02:00",
-      "sort_at": "2026-09-16T00:00:00+02:00",
+      "when": "2026-09-16T08:00:00+02:00",
+      "sort_at": "2026-09-16T08:00:00+02:00",
       "all_day": false,
       "title": "Lab 3",
       "subtitle": "Text representation I - Vector-based",
-      "details": "Two lab groups: Wednesday 08:00-10:00 (room 2.30) and Thursday 18:00-20:00 (room 2.32)",
+      "details": "Lab group 1 - Wednesday 08:00-10:00, room 2.30",
       "assignment": null,
       "released": true,
       "tbc": false,
@@ -443,6 +487,28 @@
       "readings_pending": false,
       "tabs": [
         "lab"
+      ]
+    },
+    {
+      "id": "lab-03-group-2",
+      "kind": "special_event",
+      "when": "2026-09-17T18:00:00+02:00",
+      "sort_at": "2026-09-17T18:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 3 - group 2",
+      "subtitle": "",
+      "details": "Lab group 2 - Thursday 18:00-20:00, room 2.32",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "special_event"
       ]
     },
     {
@@ -503,12 +569,12 @@
     {
       "id": "lab-04",
       "kind": "lab",
-      "when": "2026-09-23T00:00:00+02:00",
-      "sort_at": "2026-09-23T00:00:00+02:00",
+      "when": "2026-09-23T08:00:00+02:00",
+      "sort_at": "2026-09-23T08:00:00+02:00",
       "all_day": false,
       "title": "Lab 4",
       "subtitle": "Text representation II - Distribution-based",
-      "details": "Two lab groups: Wednesday 08:00-10:00 (room 2.30) and Thursday 18:00-20:00 (room 2.32)",
+      "details": "Lab group 1 - Wednesday 08:00-10:00, room 2.30",
       "assignment": null,
       "released": true,
       "tbc": false,
@@ -572,6 +638,28 @@
       ]
     },
     {
+      "id": "lab-04-group-2",
+      "kind": "special_event",
+      "when": "2026-09-24T18:00:00+02:00",
+      "sort_at": "2026-09-24T18:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 4 - group 2",
+      "subtitle": "",
+      "details": "Lab group 2 - Thursday 18:00-20:00, room 2.32",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "special_event"
+      ]
+    },
+    {
       "id": "lecture-05",
       "kind": "lecture",
       "when": "2026-09-29T18:00:00+02:00",
@@ -629,12 +717,12 @@
     {
       "id": "lab-05",
       "kind": "lab",
-      "when": "2026-09-30T00:00:00+02:00",
-      "sort_at": "2026-09-30T00:00:00+02:00",
+      "when": "2026-09-30T08:00:00+02:00",
+      "sort_at": "2026-09-30T08:00:00+02:00",
       "all_day": false,
       "title": "Lab 5",
       "subtitle": "Basic models I - Text classification with logistic regression",
-      "details": "Two lab groups: Wednesday 08:00-10:00 (room 2.30) and Thursday 18:00-20:00 (room 2.32)",
+      "details": "Lab group 1 - Wednesday 08:00-10:00, room 2.30",
       "assignment": null,
       "released": true,
       "tbc": false,
@@ -671,6 +759,28 @@
       "readings_pending": false,
       "tabs": [
         "lab"
+      ]
+    },
+    {
+      "id": "lab-05-group-2",
+      "kind": "special_event",
+      "when": "2026-10-01T18:00:00+02:00",
+      "sort_at": "2026-10-01T18:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 5 - group 2",
+      "subtitle": "",
+      "details": "Lab group 2 - Thursday 18:00-20:00, room 2.32",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "special_event"
       ]
     },
     {
@@ -787,12 +897,12 @@
     {
       "id": "lab-06",
       "kind": "lab",
-      "when": "2026-10-07T00:00:00+02:00",
-      "sort_at": "2026-10-07T00:00:00+02:00",
+      "when": "2026-10-07T08:00:00+02:00",
+      "sort_at": "2026-10-07T08:00:00+02:00",
       "all_day": false,
       "title": "Lab 6",
       "subtitle": "Neural models I - Text classification with neural networks",
-      "details": "Two lab groups: Wednesday 08:00-10:00 (room 2.30) and Thursday 18:00-20:00 (room 2.32)",
+      "details": "Lab group 1 - Wednesday 08:00-10:00, room 2.30",
       "assignment": null,
       "released": true,
       "tbc": false,
@@ -835,7 +945,7 @@
       "id": "lab-07",
       "kind": "lab",
       "when": null,
-      "sort_at": "2026-10-07T00:01:00+02:00",
+      "sort_at": "2026-10-07T08:01:00+02:00",
       "all_day": false,
       "title": "Lab 7",
       "subtitle": "Neural models II - Topic modelling with LDA + BERTopic",
@@ -864,7 +974,7 @@
       "id": "lab-08",
       "kind": "lab",
       "when": null,
-      "sort_at": "2026-10-07T00:02:00+02:00",
+      "sort_at": "2026-10-07T08:02:00+02:00",
       "all_day": false,
       "title": "Lab 8",
       "subtitle": "Neural models III - Language modelling with Transformers I",
@@ -886,7 +996,7 @@
       "id": "lab-09",
       "kind": "lab",
       "when": null,
-      "sort_at": "2026-10-07T00:03:00+02:00",
+      "sort_at": "2026-10-07T08:03:00+02:00",
       "all_day": false,
       "title": "Lab 9",
       "subtitle": "Neural models III - Language modelling with Transformers II",
@@ -908,7 +1018,7 @@
       "id": "lab-10",
       "kind": "lab",
       "when": null,
-      "sort_at": "2026-10-07T00:04:00+02:00",
+      "sort_at": "2026-10-07T08:04:00+02:00",
       "all_day": false,
       "title": "Lab 10",
       "subtitle": "NLP visualizations + Explainable AI",
@@ -930,7 +1040,7 @@
       "id": "lab-11",
       "kind": "lab",
       "when": null,
-      "sort_at": "2026-10-07T00:05:00+02:00",
+      "sort_at": "2026-10-07T08:05:00+02:00",
       "all_day": false,
       "title": "Lab 11",
       "subtitle": "Extending NLP to LLM workflows and agents",
@@ -952,7 +1062,7 @@
       "id": "lab-12",
       "kind": "lab",
       "when": null,
-      "sort_at": "2026-10-07T00:06:00+02:00",
+      "sort_at": "2026-10-07T08:06:00+02:00",
       "all_day": false,
       "title": "Lab 12",
       "subtitle": "LLM Workflows and Agents II",
@@ -968,6 +1078,28 @@
       "readings_pending": false,
       "tabs": [
         "lab"
+      ]
+    },
+    {
+      "id": "lab-06-group-2",
+      "kind": "special_event",
+      "when": "2026-10-08T18:00:00+02:00",
+      "sort_at": "2026-10-08T18:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 6 - group 2",
+      "subtitle": "",
+      "details": "Lab group 2 - Thursday 18:00-20:00, room 2.32",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "special_event"
       ]
     },
     {
