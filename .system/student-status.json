@@ -1,0 +1,235 @@
+{
+  "schema": "dsl.student-status/2",
+  "semester": "hertie-nlp-f2026",
+  "course_name": "Natural Language Processing",
+  "course_description": "The course provides a conceptual and applied introduction to Natural Language processing (NLP). The program introduces NLP within the broader fields of Machine Learning and Deep Learning. It will cover core topics such as text representation, text preprocessing, supervised and unsupervised learning with labeled and unlabeled datasets, model evaluations, and emerging trends including using other data sources such as audio and video.",
+  "student_console": false,
+  "semester_start": "2026-08-01",
+  "semester_end": "2027-01-31",
+  "generated_at": "2026-10-13T18:02:35+00:00",
+  "timezone": "Europe/Berlin",
+  "archive_datetime": "2027-02-13",
+  "home_markdown": "Welcome to **Natural Language Processing** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-nlp-f2026) or contact the instructor directly.",
+  "previous_offerings": [],
+  "syllabus": null,
+  "kinds": {
+    "lecture": {
+      "label": "Lecture",
+      "colour": "#a94442",
+      "background": "#f2dede",
+      "tab": true
+    },
+    "lab": {
+      "label": "Lab",
+      "colour": "#3c763d",
+      "background": "#dff0d8",
+      "tab": true
+    },
+    "readings": {
+      "label": "Readings",
+      "colour": "#2b6a60",
+      "background": "#dcefec",
+      "tab": true
+    },
+    "exam": {
+      "label": "Exam",
+      "colour": "#2b2f36",
+      "background": "#e6e8ec",
+      "tab": true
+    },
+    "assignment": {
+      "label": "Assignment",
+      "colour": "#1f5fa8",
+      "background": "#d6e6f7",
+      "tab": false
+    },
+    "term": {
+      "label": "Semester",
+      "colour": "#7b3fb8",
+      "background": "#ead9f6",
+      "tab": false
+    },
+    "archive": {
+      "label": "Archive",
+      "colour": "#7d6230",
+      "background": "#fbf2d5",
+      "tab": false
+    },
+    "drop-in": {
+      "label": "Drop-in",
+      "colour": "#8f4a1c",
+      "background": "#fbe3d6",
+      "tab": true
+    },
+    "assets": {
+      "label": "Supporting files",
+      "colour": "#4a5560",
+      "background": "#eceff1",
+      "tab": true
+    },
+    "other": {
+      "label": "Event",
+      "colour": "#7d6230",
+      "background": "#fbf2d5",
+      "tab": true
+    }
+  },
+  "rows": [
+    {
+      "id": "term-start",
+      "kind": "term_date",
+      "when": "2026-08-01",
+      "sort_at": "2026-08-01",
+      "all_day": true,
+      "title": "Semester starts",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "term_date"
+      ]
+    },
+    {
+      "id": "quiz-1:handout",
+      "kind": "assignment",
+      "when": "2026-10-04T20:00:00+02:00",
+      "sort_at": "2026-10-04T20:00:00+02:00",
+      "all_day": false,
+      "title": "Quiz 1",
+      "subtitle": "",
+      "details": "",
+      "assignment": "quiz-1",
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
+    },
+    {
+      "id": "quiz-1:due",
+      "kind": "due",
+      "when": "2026-10-04T23:59:59+02:00",
+      "sort_at": "2026-10-04T23:59:59+02:00",
+      "all_day": false,
+      "title": "Quiz 1",
+      "subtitle": "",
+      "details": "",
+      "assignment": "quiz-1",
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
+    },
+    {
+      "id": "term-end",
+      "kind": "term_date",
+      "when": "2027-01-31",
+      "sort_at": "2027-01-31",
+      "all_day": true,
+      "title": "Semester ends",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "term_date"
+      ]
+    },
+    {
+      "id": "semester-archived",
+      "kind": "special_event",
+      "when": "2027-02-13",
+      "sort_at": "2027-02-13",
+      "all_day": true,
+      "title": "Semester archived",
+      "subtitle": "",
+      "details": "This semester is archived on 2027-02-13: every repository in it becomes read-only. You keep read access, so you can still fork or clone anything you want to keep working on into your own account.",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "special_event"
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "slug": "quiz-1",
+      "title": "Quiz 1",
+      "subtitle": "",
+      "handout_datetime": "2026-10-04T20:00:00+02:00",
+      "due_datetime": "2026-10-04T23:59:59+02:00",
+      "grading_cutoff_datetime": "2026-10-04T23:59:59+02:00",
+      "late_rule": "",
+      "cutoff_sentence": "",
+      "submit_via": "external",
+      "shape": "external",
+      "shape_note": "",
+      "private_repo": false,
+      "submit_url": "",
+      "group": false,
+      "team_formation": null,
+      "teams": [],
+      "solution_datetime": null,
+      "max_points": null,
+      "handed_out": true,
+      "brief": "## Task\n\n_Write the assignment here (dsl-stub: replace this whole file)._\n\n## What to submit\n\nCommit the notebook with its outputs saved, after **Restart kernel and run all**. We read it as it stands, and we run it the same way.\n\n_Say which files you expect back, and in what shape._",
+      "tbc": false
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Luis Fernando Ramirez Ruiz",
+      "title": "",
+      "webpage": "",
+      "picture": "",
+      "role": "instructor",
+      "email": ""
+    },
+    {
+      "name": "Lonny Chen",
+      "title": "",
+      "webpage": "",
+      "picture": "",
+      "role": "instructor",
+      "email": ""
+    }
+  ],
+  "late_policy": [],
+  "materials_repos": [],
+  "announcements": []
+}
