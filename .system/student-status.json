@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-31",
   "semester_end": "2026-11-27",
-  "generated_at": "2026-10-14T02:34:32+00:00",
+  "generated_at": "2026-10-14T10:23:53+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-02-13",
   "home_markdown": "Welcome to **Natural Language Processing** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-nlp-f2026) or contact the instructor directly.",
@@ -999,6 +999,12 @@
       "dateless": true,
       "off_schedule": false,
       "links": [
+        {
+          "name": "NLP_Lab7_Slides.pdf",
+          "repo": "materials",
+          "path": "labs/07_session-7/NLP_Lab7_Slides.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/07_session-7/NLP_Lab7_Slides.pdf"
+        },
         {
           "name": "NLP_Lab_7_bertopic.html",
           "repo": "materials",
