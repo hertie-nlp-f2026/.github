@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-31",
   "semester_end": "2026-11-27",
-  "generated_at": "2026-11-01T11:56:13+00:00",
+  "generated_at": "2026-11-02T16:36:49+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-02-13",
   "home_markdown": "Welcome to **Natural Language Processing** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-nlp-f2026) or contact the instructor directly.",
@@ -1506,7 +1506,7 @@
       "handout_datetime": "2026-10-04T20:00:00+02:00",
       "due_datetime": "2026-10-04T23:59:59+02:00",
       "grading_cutoff_datetime": "2026-10-04T23:59:59+02:00",
-      "late_rule": "",
+      "late_rule": "10% of the grade per day late, counted by your marker",
       "cutoff_sentence": "",
       "submit_via": "external",
       "shape": "external",
@@ -1541,7 +1541,9 @@
       "email": ""
     }
   ],
-  "late_policy": [],
+  "late_policy": [
+    "10% of the grade per day late, counted by your marker"
+  ],
   "materials_repos": [
     "materials"
   ],
