@@ -1,6 +1,6 @@
 {
   "hold": true,
-  "migrated": false,
+  "migrated": true,
   "repos": {
     "hertie-nlp-f2026/hertie-nlp-f2026.github.io": {
       "allowed_actions": "all",
