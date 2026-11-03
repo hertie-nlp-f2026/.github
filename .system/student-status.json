@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-31",
   "semester_end": "2026-11-27",
-  "generated_at": "2026-11-03T14:30:47+00:00",
+  "generated_at": "2026-11-03T23:25:04+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-02-13",
   "home_markdown": "Welcome to **Natural Language Processing** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-nlp-f2026) or contact the instructor directly.",
@@ -15,60 +15,70 @@
   "kinds": {
     "lecture": {
       "label": "Lecture",
+      "plural": "lectures",
       "colour": "#a94442",
       "background": "#f2dede",
       "tab": true
     },
     "lab": {
       "label": "Lab",
+      "plural": "labs",
       "colour": "#3c763d",
       "background": "#dff0d8",
       "tab": true
     },
     "readings": {
       "label": "Readings",
+      "plural": "readings",
       "colour": "#2b6a60",
       "background": "#dcefec",
       "tab": true
     },
     "exam": {
       "label": "Exam",
+      "plural": "exams",
       "colour": "#2b2f36",
       "background": "#e6e8ec",
       "tab": true
     },
     "assignment": {
       "label": "Assignment",
+      "plural": "assignments",
       "colour": "#1f5fa8",
       "background": "#d6e6f7",
       "tab": false
     },
-    "term": {
+    "semester": {
       "label": "Semester",
+      "plural": "semesters",
       "colour": "#7b3fb8",
       "background": "#ead9f6",
       "tab": false
     },
     "archive": {
       "label": "Archive",
+      "plural": "archives",
       "colour": "#7d6230",
       "background": "#fbf2d5",
       "tab": false
     },
     "drop-in": {
       "label": "Drop-in",
+      "plural": "drop-ins",
       "colour": "#8f4a1c",
       "background": "#fbe3d6",
       "tab": true
     },
     "assets": {
       "label": "Supporting files",
+      "plural": "assets",
       "colour": "#4a5560",
       "background": "#eceff1",
       "tab": true
     },
     "other": {
       "label": "Event",
+      "plural": "events",
       "colour": "#7d6230",
       "background": "#fbf2d5",
       "tab": true
@@ -77,7 +87,7 @@
   "rows": [
     {
       "id": "term-start",
-      "kind": "term_date",
+      "kind": "semester",
       "when": "2026-08-31",
       "sort_at": "2026-08-31",
       "all_day": true,
@@ -86,6 +96,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -94,9 +105,10 @@
       "reading_list": "",
       "readings_pending": false,
       "tabs": [
-        "term_date"
+        "semester"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-01",
@@ -109,6 +121,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -152,7 +165,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-01",
@@ -165,6 +179,7 @@
       "details": "Lab group 1 - Wednesday 08:00-10:00, room 2.30",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -206,10 +221,11 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
-      "id": "lab-01-group-2",
+      "id": "lab-01-2",
       "kind": "lab",
       "when": "2026-09-03T18:00:00+02:00",
       "sort_at": "2026-09-03T18:00:00+02:00",
@@ -219,17 +235,50 @@
       "details": "Lab group 2 - Thursday 18:00-20:00, room 2.32",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
-      "links": [],
+      "links": [
+        {
+          "name": "NLP_Lab1_Slides.pdf",
+          "repo": "materials",
+          "path": "labs/01_session-1/NLP_Lab1_Slides.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/01_session-1/NLP_Lab1_Slides.pdf"
+        },
+        {
+          "name": "NLP_Lab_1.html",
+          "repo": "materials",
+          "path": "labs/01_session-1/NLP_Lab_1.html",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/01_session-1/NLP_Lab_1.html"
+        },
+        {
+          "name": "NLP_Lab_1_activity.ipynb",
+          "repo": "materials",
+          "path": "labs/01_session-1/NLP_Lab_1_activity.ipynb",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/01_session-1/NLP_Lab_1_activity.ipynb"
+        },
+        {
+          "name": "nlp_lab1_data_in.csv",
+          "repo": "materials",
+          "path": "labs/01_session-1/nlp_lab1_data_in.csv",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/01_session-1/nlp_lab1_data_in.csv"
+        },
+        {
+          "name": "requirements.txt",
+          "repo": "materials",
+          "path": "labs/01_session-1/requirements.txt",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/01_session-1/requirements.txt"
+        }
+      ],
       "readings": [],
       "reading_list": "",
       "readings_pending": false,
       "tabs": [
         "lab"
       ],
-      "no_materials": true
+      "no_materials": false,
+      "repeat": true
     },
     {
       "id": "lecture-02",
@@ -242,6 +291,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -297,7 +347,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-02",
@@ -310,6 +361,7 @@
       "details": "Lab group 1 - Wednesday 08:00-10:00, room 2.30",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -363,10 +415,11 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
-      "id": "lab-02-group-2",
+      "id": "lab-02-2",
       "kind": "lab",
       "when": "2026-09-10T18:00:00+02:00",
       "sort_at": "2026-09-10T18:00:00+02:00",
@@ -376,17 +429,62 @@
       "details": "Lab group 2 - Thursday 18:00-20:00, room 2.32",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
-      "links": [],
+      "links": [
+        {
+          "name": "NLP_Lab2_Slides.pdf",
+          "repo": "materials",
+          "path": "labs/02_session-2/NLP_Lab2_Slides.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/02_session-2/NLP_Lab2_Slides.pdf"
+        },
+        {
+          "name": "NLP_Lab_2_activity.html",
+          "repo": "materials",
+          "path": "labs/02_session-2/NLP_Lab_2_activity.html",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/02_session-2/NLP_Lab_2_activity.html"
+        },
+        {
+          "name": "NLP_Lab_2_activity.ipynb",
+          "repo": "materials",
+          "path": "labs/02_session-2/NLP_Lab_2_activity.ipynb",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/02_session-2/NLP_Lab_2_activity.ipynb"
+        },
+        {
+          "name": "nlp_lab2_data_cleaning.csv",
+          "repo": "materials",
+          "path": "labs/02_session-2/nlp_lab2_data_cleaning.csv",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/02_session-2/nlp_lab2_data_cleaning.csv"
+        },
+        {
+          "name": "requirements.txt",
+          "repo": "materials",
+          "path": "labs/02_session-2/requirements.txt",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/02_session-2/requirements.txt"
+        },
+        {
+          "name": "reviews_sentiment.csv",
+          "repo": "materials",
+          "path": "labs/02_session-2/reviews_sentiment.csv",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/02_session-2/reviews_sentiment.csv"
+        },
+        {
+          "name": "images/ (1 file)",
+          "repo": "materials",
+          "path": "labs/02_session-2/images",
+          "url": "https://github.com/hertie-nlp-f2026/materials/tree/main/labs/02_session-2/images"
+        }
+      ],
       "readings": [],
       "reading_list": "",
       "readings_pending": false,
       "tabs": [
         "lab"
       ],
-      "no_materials": true
+      "no_materials": false,
+      "repeat": true
     },
     {
       "id": "lecture-03",
@@ -399,6 +497,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -442,7 +541,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-03",
@@ -455,6 +555,7 @@
       "details": "Lab group 1 - Wednesday 08:00-10:00, room 2.30",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -496,10 +597,11 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
-      "id": "lab-03-group-2",
+      "id": "lab-03-2",
       "kind": "lab",
       "when": "2026-09-17T18:00:00+02:00",
       "sort_at": "2026-09-17T18:00:00+02:00",
@@ -509,17 +611,50 @@
       "details": "Lab group 2 - Thursday 18:00-20:00, room 2.32",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
-      "links": [],
+      "links": [
+        {
+          "name": "NLP_Lab3_Slides.pdf",
+          "repo": "materials",
+          "path": "labs/03_session-3/NLP_Lab3_Slides.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/03_session-3/NLP_Lab3_Slides.pdf"
+        },
+        {
+          "name": "NLP_Lab_3.html",
+          "repo": "materials",
+          "path": "labs/03_session-3/NLP_Lab_3.html",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/03_session-3/NLP_Lab_3.html"
+        },
+        {
+          "name": "NLP_Lab_3_activity.ipynb",
+          "repo": "materials",
+          "path": "labs/03_session-3/NLP_Lab_3_activity.ipynb",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/03_session-3/NLP_Lab_3_activity.ipynb"
+        },
+        {
+          "name": "requirements.txt",
+          "repo": "materials",
+          "path": "labs/03_session-3/requirements.txt",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/03_session-3/requirements.txt"
+        },
+        {
+          "name": "pdf_corpus/ (10 files)",
+          "repo": "materials",
+          "path": "labs/03_session-3/pdf_corpus",
+          "url": "https://github.com/hertie-nlp-f2026/materials/tree/main/labs/03_session-3/pdf_corpus"
+        }
+      ],
       "readings": [],
       "reading_list": "",
       "readings_pending": false,
       "tabs": [
         "lab"
       ],
-      "no_materials": true
+      "no_materials": false,
+      "repeat": true
     },
     {
       "id": "lecture-04",
@@ -532,6 +667,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -575,7 +711,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-04",
@@ -588,6 +725,7 @@
       "details": "Lab group 1 - Wednesday 08:00-10:00, room 2.30",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -647,10 +785,11 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
-      "id": "lab-04-group-2",
+      "id": "lab-04-2",
       "kind": "lab",
       "when": "2026-09-24T18:00:00+02:00",
       "sort_at": "2026-09-24T18:00:00+02:00",
@@ -660,17 +799,68 @@
       "details": "Lab group 2 - Thursday 18:00-20:00, room 2.32",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
-      "links": [],
+      "links": [
+        {
+          "name": "NLP_Lab4_Slides.pdf",
+          "repo": "materials",
+          "path": "labs/04_session-4/NLP_Lab4_Slides.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/04_session-4/NLP_Lab4_Slides.pdf"
+        },
+        {
+          "name": "NLP_Lab_4.html",
+          "repo": "materials",
+          "path": "labs/04_session-4/NLP_Lab_4.html",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/04_session-4/NLP_Lab_4.html"
+        },
+        {
+          "name": "NLP_Lab_4_CBoW.html",
+          "repo": "materials",
+          "path": "labs/04_session-4/NLP_Lab_4_CBoW.html",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/04_session-4/NLP_Lab_4_CBoW.html"
+        },
+        {
+          "name": "NLP_Lab_4_CBoW.ipynb",
+          "repo": "materials",
+          "path": "labs/04_session-4/NLP_Lab_4_CBoW.ipynb",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/04_session-4/NLP_Lab_4_CBoW.ipynb"
+        },
+        {
+          "name": "NLP_Lab_4_activity.ipynb",
+          "repo": "materials",
+          "path": "labs/04_session-4/NLP_Lab_4_activity.ipynb",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/04_session-4/NLP_Lab_4_activity.ipynb"
+        },
+        {
+          "name": "requirements.txt",
+          "repo": "materials",
+          "path": "labs/04_session-4/requirements.txt",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/04_session-4/requirements.txt"
+        },
+        {
+          "name": "reviews_sentiment.csv",
+          "repo": "materials",
+          "path": "labs/04_session-4/reviews_sentiment.csv",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/04_session-4/reviews_sentiment.csv"
+        },
+        {
+          "name": "pdf_corpus/ (10 files)",
+          "repo": "materials",
+          "path": "labs/04_session-4/pdf_corpus",
+          "url": "https://github.com/hertie-nlp-f2026/materials/tree/main/labs/04_session-4/pdf_corpus"
+        }
+      ],
       "readings": [],
       "reading_list": "",
       "readings_pending": false,
       "tabs": [
         "lab"
       ],
-      "no_materials": true
+      "no_materials": false,
+      "repeat": true
     },
     {
       "id": "lecture-05",
@@ -683,6 +873,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -726,7 +917,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-05",
@@ -739,6 +931,7 @@
       "details": "Lab group 1 - Wednesday 08:00-10:00, room 2.30",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -774,10 +967,11 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
-      "id": "lab-05-group-2",
+      "id": "lab-05-2",
       "kind": "lab",
       "when": "2026-10-01T18:00:00+02:00",
       "sort_at": "2026-10-01T18:00:00+02:00",
@@ -787,17 +981,44 @@
       "details": "Lab group 2 - Thursday 18:00-20:00, room 2.32",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
-      "links": [],
+      "links": [
+        {
+          "name": "NLP_Lab5_Slides.pdf",
+          "repo": "materials",
+          "path": "labs/05_session-5/NLP_Lab5_Slides.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/05_session-5/NLP_Lab5_Slides.pdf"
+        },
+        {
+          "name": "NLP_Lab_5_activity.html",
+          "repo": "materials",
+          "path": "labs/05_session-5/NLP_Lab_5_activity.html",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/05_session-5/NLP_Lab_5_activity.html"
+        },
+        {
+          "name": "NLP_Lab_5_activity.ipynb",
+          "repo": "materials",
+          "path": "labs/05_session-5/NLP_Lab_5_activity.ipynb",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/05_session-5/NLP_Lab_5_activity.ipynb"
+        },
+        {
+          "name": "requirements.txt",
+          "repo": "materials",
+          "path": "labs/05_session-5/requirements.txt",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/05_session-5/requirements.txt"
+        }
+      ],
       "readings": [],
       "reading_list": "",
       "readings_pending": false,
       "tabs": [
         "lab"
       ],
-      "no_materials": true
+      "no_materials": false,
+      "repeat": true
     },
     {
       "id": "quiz-1:handout",
@@ -810,6 +1031,7 @@
       "details": "",
       "assignment": "quiz-1",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -820,7 +1042,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "quiz-1:due",
@@ -833,6 +1056,7 @@
       "details": "",
       "assignment": "quiz-1",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -843,7 +1067,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-06",
@@ -856,6 +1081,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -911,7 +1137,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-06",
@@ -924,6 +1151,7 @@
       "details": "Lab group 1 - Wednesday 08:00-10:00, room 2.30",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -959,10 +1187,11 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
-      "id": "lab-06-group-2",
+      "id": "lab-06-2",
       "kind": "lab",
       "when": "2026-10-08T18:00:00+02:00",
       "sort_at": "2026-10-08T18:00:00+02:00",
@@ -972,17 +1201,44 @@
       "details": "Lab group 2 - Thursday 18:00-20:00, room 2.32",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
-      "links": [],
+      "links": [
+        {
+          "name": "NLP_Lab6_Slides.pdf",
+          "repo": "materials",
+          "path": "labs/06_session-6/NLP_Lab6_Slides.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/06_session-6/NLP_Lab6_Slides.pdf"
+        },
+        {
+          "name": "NLP_Lab_6_activity.html",
+          "repo": "materials",
+          "path": "labs/06_session-6/NLP_Lab_6_activity.html",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/06_session-6/NLP_Lab_6_activity.html"
+        },
+        {
+          "name": "NLP_Lab_6_activity.ipynb",
+          "repo": "materials",
+          "path": "labs/06_session-6/NLP_Lab_6_activity.ipynb",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/06_session-6/NLP_Lab_6_activity.ipynb"
+        },
+        {
+          "name": "requirements.txt",
+          "repo": "materials",
+          "path": "labs/06_session-6/requirements.txt",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/06_session-6/requirements.txt"
+        }
+      ],
       "readings": [],
       "reading_list": "",
       "readings_pending": false,
       "tabs": [
         "lab"
       ],
-      "no_materials": true
+      "no_materials": false,
+      "repeat": true
     },
     {
       "id": "lab-07",
@@ -995,6 +1251,7 @@
       "details": "Two lab groups: Wednesday 08:00-10:00 (room 2.30) and Thursday 18:00-20:00 (room 2.32)",
       "assignment": null,
       "released": true,
+      "released_at": "2026-10-13T17:02:47+02:00",
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
@@ -1030,7 +1287,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-08",
@@ -1043,6 +1301,7 @@
       "details": "Two lab groups: Wednesday 08:00-10:00 (room 2.30) and Thursday 18:00-20:00 (room 2.32)",
       "assignment": null,
       "released": true,
+      "released_at": "2026-10-27T14:49:03+01:00",
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
@@ -1078,7 +1337,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-09",
@@ -1091,6 +1351,7 @@
       "details": "Two lab groups: Wednesday 08:00-10:00 (room 2.30) and Thursday 18:00-20:00 (room 2.32)",
       "assignment": null,
       "released": false,
+      "released_at": null,
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
@@ -1101,7 +1362,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-10",
@@ -1114,6 +1376,7 @@
       "details": "Two lab groups: Wednesday 08:00-10:00 (room 2.30) and Thursday 18:00-20:00 (room 2.32)",
       "assignment": null,
       "released": false,
+      "released_at": null,
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
@@ -1124,7 +1387,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-11",
@@ -1137,6 +1401,7 @@
       "details": "Two lab groups: Wednesday 08:00-10:00 (room 2.30) and Thursday 18:00-20:00 (room 2.32)",
       "assignment": null,
       "released": false,
+      "released_at": null,
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
@@ -1147,7 +1412,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lab-12",
@@ -1160,6 +1426,7 @@
       "details": "Two lab groups: Wednesday 08:00-10:00 (room 2.30) and Thursday 18:00-20:00 (room 2.32)",
       "assignment": null,
       "released": false,
+      "released_at": null,
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
@@ -1170,7 +1437,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-07",
@@ -1183,6 +1451,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1262,7 +1531,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-08",
@@ -1275,6 +1545,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": "2026-10-26T22:36:03+01:00",
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
@@ -1330,7 +1601,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-09",
@@ -1343,6 +1615,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": "2026-11-03T15:23:14+01:00",
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
@@ -1386,7 +1659,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-10",
@@ -1399,6 +1673,7 @@
       "details": "",
       "assignment": null,
       "released": false,
+      "released_at": null,
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
@@ -1409,7 +1684,8 @@
       "tabs": [
         "lecture"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-11",
@@ -1422,6 +1698,7 @@
       "details": "",
       "assignment": null,
       "released": false,
+      "released_at": null,
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
@@ -1432,7 +1709,8 @@
       "tabs": [
         "lecture"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture-12",
@@ -1445,6 +1723,7 @@
       "details": "",
       "assignment": null,
       "released": false,
+      "released_at": null,
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
@@ -1455,11 +1734,12 @@
       "tabs": [
         "lecture"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "term-end",
-      "kind": "term_date",
+      "kind": "semester",
       "when": "2026-11-27",
       "sort_at": "2026-11-27",
       "all_day": true,
@@ -1468,6 +1748,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1476,9 +1757,10 @@
       "reading_list": "",
       "readings_pending": false,
       "tabs": [
-        "term_date"
+        "semester"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "semester-archived",
@@ -1491,6 +1773,7 @@
       "details": "This semester is archived on 2027-02-13: every repository in it becomes read-only. You keep read access, so you can still fork or clone anything you want to keep working on into your own account.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1501,7 +1784,8 @@
       "tabs": [
         "special_event"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     }
   ],
   "assignments": [
