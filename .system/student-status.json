@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-31",
   "semester_end": "2026-11-27",
-  "generated_at": "2026-11-05T18:41:52+00:00",
+  "generated_at": "2026-11-11T07:05:52+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-02-13",
   "home_markdown": "Welcome to **Natural Language Processing** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-nlp-f2026) or contact the instructor directly.",
@@ -1424,12 +1424,55 @@
       "subtitle": "NLP visualizations + Explainable AI",
       "details": "Two lab groups: Wednesday 08:00-10:00 (room 2.30) and Thursday 18:00-20:00 (room 2.32)",
       "assignment": null,
-      "released": false,
-      "released_at": null,
+      "released": true,
+      "released_at": "2026-11-11T08:05:32+01:00",
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
-      "links": [],
+      "links": [
+        {
+          "name": "NLP_Lab10_Slides.pdf",
+          "repo": "materials",
+          "path": "labs/10_session-10/NLP_Lab10_Slides.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/10_session-10/NLP_Lab10_Slides.pdf"
+        },
+        {
+          "name": "NLP_Lab_10_mt_activity.ipynb",
+          "repo": "materials",
+          "path": "labs/10_session-10/NLP_Lab_10_mt_activity.ipynb",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/10_session-10/NLP_Lab_10_mt_activity.ipynb"
+        },
+        {
+          "name": "data_loading.py",
+          "repo": "materials",
+          "path": "labs/10_session-10/data_loading.py",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/10_session-10/data_loading.py"
+        },
+        {
+          "name": "evaluation.py",
+          "repo": "materials",
+          "path": "labs/10_session-10/evaluation.py",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/10_session-10/evaluation.py"
+        },
+        {
+          "name": "languages.py",
+          "repo": "materials",
+          "path": "labs/10_session-10/languages.py",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/10_session-10/languages.py"
+        },
+        {
+          "name": "requirements.txt",
+          "repo": "materials",
+          "path": "labs/10_session-10/requirements.txt",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/10_session-10/requirements.txt"
+        },
+        {
+          "name": "txt_mt/ (4 files)",
+          "repo": "materials",
+          "path": "labs/10_session-10/txt_mt",
+          "url": "https://github.com/hertie-nlp-f2026/materials/tree/main/labs/10_session-10/txt_mt"
+        }
+      ],
       "readings": [],
       "reading_list": "",
       "readings_pending": false,
