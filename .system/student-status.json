@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-31",
   "semester_end": "2026-11-27",
-  "generated_at": "2026-11-13T15:41:02+00:00",
+  "generated_at": "2026-11-17T11:53:07+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-02-13",
   "home_markdown": "Welcome to **Natural Language Processing** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-nlp-f2026) or contact the instructor directly.",
@@ -1534,12 +1534,25 @@
       "subtitle": "Extending NLP to LLM workflows and agents",
       "details": "Two lab groups: Wednesday 08:00-10:00 (room 2.30) and Thursday 18:00-20:00 (room 2.32)",
       "assignment": null,
-      "released": false,
-      "released_at": null,
+      "released": true,
+      "released_at": "2026-11-17T12:52:49+01:00",
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
-      "links": [],
+      "links": [
+        {
+          "name": "requirements.txt",
+          "repo": "materials",
+          "path": "labs/11_session-11/requirements.txt",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/11_session-11/requirements.txt"
+        },
+        {
+          "name": "sentencepiece.model",
+          "repo": "materials",
+          "path": "labs/11_session-11/sentencepiece.model",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/labs/11_session-11/sentencepiece.model"
+        }
+      ],
       "readings": [],
       "reading_list": "",
       "readings_pending": false,
