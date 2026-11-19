@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-31",
   "semester_end": "2026-11-27",
-  "generated_at": "2026-11-19T21:08:59+00:00",
+  "generated_at": "2026-11-19T21:27:16+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-02-13",
   "home_markdown": "Welcome to **Natural Language Processing** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-nlp-f2026) or contact the instructor directly.",
@@ -1837,12 +1837,19 @@
       "subtitle": "NLP visualizations + Explainable AI",
       "details": "",
       "assignment": null,
-      "released": false,
-      "released_at": null,
+      "released": true,
+      "released_at": "2026-11-19T22:26:55+01:00",
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
-      "links": [],
+      "links": [
+        {
+          "name": "NLP_Session_10_Attention_Transformers.pdf",
+          "repo": "materials",
+          "path": "lectures/10_session-10/NLP_Session_10_Attention_Transformers.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/lectures/10_session-10/NLP_Session_10_Attention_Transformers.pdf"
+        }
+      ],
       "readings": [],
       "reading_list": "",
       "readings_pending": false,
@@ -1862,12 +1869,19 @@
       "subtitle": "Extending NLP to LLM workflows and agents",
       "details": "",
       "assignment": null,
-      "released": false,
-      "released_at": null,
+      "released": true,
+      "released_at": "2026-11-19T22:26:55+01:00",
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
-      "links": [],
+      "links": [
+        {
+          "name": "NLP_Session_11_post_training.pdf",
+          "repo": "materials",
+          "path": "lectures/11_session-11/NLP_Session_11_post_training.pdf",
+          "url": "https://github.com/hertie-nlp-f2026/materials/blob/main/lectures/11_session-11/NLP_Session_11_post_training.pdf"
+        }
+      ],
       "readings": [],
       "reading_list": "",
       "readings_pending": false,
