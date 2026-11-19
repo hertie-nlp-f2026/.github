@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-31",
   "semester_end": "2026-11-27",
-  "generated_at": "2026-11-18T06:59:46+00:00",
+  "generated_at": "2026-11-19T21:08:57+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-02-13",
   "home_markdown": "Welcome to **Natural Language Processing** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-nlp-f2026) or contact the instructor directly.",
@@ -1903,6 +1903,56 @@
       "repeat": false
     },
     {
+      "id": "assignment-2:handout",
+      "kind": "assignment",
+      "when": "2026-11-04T14:00:00+01:00",
+      "sort_at": "2026-11-04T14:00:00+01:00",
+      "all_day": false,
+      "title": "Assignment 2",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-2",
+      "released": true,
+      "released_at": null,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ],
+      "no_materials": false,
+      "repeat": false
+    },
+    {
+      "id": "assignment-2:due",
+      "kind": "due",
+      "when": "2026-11-11T23:59:00+01:00",
+      "sort_at": "2026-11-11T23:59:00+01:00",
+      "all_day": false,
+      "title": "Assignment 2",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-2",
+      "released": true,
+      "released_at": null,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ],
+      "no_materials": false,
+      "repeat": false
+    },
+    {
       "id": "term-end",
       "kind": "semester",
       "when": "2026-11-27",
@@ -1976,6 +2026,29 @@
       "handed_out": true,
       "brief": "## Task\n\n_Write the assignment here (dsl-stub: replace this whole file)._\n\n## What to submit\n\nCommit the notebook with its outputs saved, after **Restart kernel and run all**. We read it as it stands, and we run it the same way.\n\n_Say which files you expect back, and in what shape._",
       "tbc": false
+    },
+    {
+      "slug": "assignment-2",
+      "title": "Assignment 2",
+      "subtitle": "Quiz 3",
+      "handout_datetime": "2026-11-04T14:00:00+01:00",
+      "due_datetime": "2026-11-11T23:59:00+01:00",
+      "grading_cutoff_datetime": "2026-11-21T23:59:00+01:00",
+      "late_rule": "10% per day, up to 10 days",
+      "cutoff_sentence": "What is on main at the late cutoff is what is marked.",
+      "submit_via": "assignment_repo",
+      "shape": "assignment-repo-private",
+      "shape_note": "NB: this repo is private - only you and the instructors can read it.",
+      "private_repo": true,
+      "submit_url": "",
+      "group": false,
+      "team_formation": null,
+      "teams": [],
+      "solution_datetime": null,
+      "max_points": null,
+      "handed_out": true,
+      "brief": "## Task\n\n_Write the assignment here (dsl-stub: replace this whole file)._\n\n## What to submit\n\nCommit the notebook with its outputs saved, after **Restart kernel and run all**. We read it as it stands, and we run it the same way.\n\n_Say which files you expect back, and in what shape._",
+      "tbc": false
     }
   ],
   "instructors": [
@@ -1997,7 +2070,8 @@
     }
   ],
   "late_policy": [
-    "10% of the grade per day late, counted by your marker"
+    "10% of the grade per day late, counted by your marker",
+    "10% per day, up to 10 days"
   ],
   "materials_repos": [
     "materials"
